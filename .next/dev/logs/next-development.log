@@ -4017,3 +4017,25 @@ Module not found: Can't resolve 'jsonwebtoken'
   7 | export async function POST(req: NextRequest) {
 
 https://nextjs.org/docs/messages/module-not-found
+[01:27:16.196] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:27:16.196] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found

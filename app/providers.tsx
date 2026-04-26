@@ -26,16 +26,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoading, setIsLoading] = useState(true)
   const [token, setTokenState] = useState<string | null>(null)
   const [user, setUserState] = useState<User | null>(null)
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    setMounted(true)
     // Check if token exists in localStorage on mount
-    const storedToken = localStorage.getItem('authToken')
-    const storedUser = localStorage.getItem('authUser')
-    if (storedToken) {
-      setTokenState(storedToken)
-      setIsAuthenticated(true)
-      if (storedUser) {
-        setUserState(JSON.parse(storedUser))
+    if (typeof window !== 'undefined') {
+      const storedToken = localStorage.getItem('authToken')
+      const storedUser = localStorage.getItem('authUser')
+      if (storedToken) {
+        setTokenState(storedToken)
+        setIsAuthenticated(true)
+        if (storedUser) {
+          try {
+            setUserState(JSON.parse(storedUser))
+          } catch (e) {
+            console.error('[v0] Failed to parse stored user:', e)
+          }
+        }
       }
     }
     setIsLoading(false)
@@ -43,11 +51,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const handleSetToken = (newToken: string | null) => {
     if (newToken) {
-      localStorage.setItem('authToken', newToken)
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('authToken', newToken)
+      }
       setTokenState(newToken)
       setIsAuthenticated(true)
     } else {
-      localStorage.removeItem('authToken')
+      if (typeof window !== 'undefined') {
+        localStorage.removeItem('authToken')
+      }
       setTokenState(null)
       setIsAuthenticated(false)
     }
@@ -55,20 +67,38 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const handleSetUser = (newUser: User | null) => {
     if (newUser) {
-      localStorage.setItem('authUser', JSON.stringify(newUser))
+      if (typeof window !== 'undefined') {
+        localStorage.setItem('authUser', JSON.stringify(newUser))
+      }
       setUserState(newUser)
     } else {
-      localStorage.removeItem('authUser')
+      if (typeof window !== 'undefined') {
+        localStorage.removeItem('authUser')
+      }
       setUserState(null)
     }
   }
 
   const handleLogout = () => {
-    localStorage.removeItem('authToken')
-    localStorage.removeItem('authUser')
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('authToken')
+      localStorage.removeItem('authUser')
+    }
     setTokenState(null)
     setUserState(null)
     setIsAuthenticated(false)
+  }
+
+  if (!mounted) {
+    return <AuthContext.Provider value={{ 
+      isAuthenticated: false, 
+      isLoading: true, 
+      token: null, 
+      user: null,
+      setToken: () => {},
+      setUser: () => {},
+      logout: () => {}
+    }}>{children}</AuthContext.Provider>
   }
 
   return (
