@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
         email: user.email,
         role: user.role,
       },
-      process.env.NEXTAUTH_SECRET || 'secret-key',
+      process.env.JWT_SECRET || process.env.NEXTAUTH_SECRET || 'secret-key',
       { expiresIn: '7d' }
     )
 
@@ -74,8 +74,9 @@ export async function POST(req: NextRequest) {
     return response
   } catch (error) {
     console.error('[v0] Login error:', error)
+    const errorMessage = error instanceof Error ? error.message : 'Something went wrong during login'
     return NextResponse.json(
-      { error: 'Something went wrong during login' },
+      { message: errorMessage, error: 'Login failed' },
       { status: 500 }
     )
   }

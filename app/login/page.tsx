@@ -64,7 +64,8 @@ export default function Login() {
       const data = await response.json()
 
       if (!response.ok) {
-        setError(data.message || "Registration failed. Please try again.")
+        setError(data.message || data.error || "Registration failed. Please try again.")
+        console.error("[v0] Registration error response:", data)
         return
       }
 

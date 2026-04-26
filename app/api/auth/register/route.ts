@@ -77,8 +77,9 @@ export async function POST(req: NextRequest) {
     )
   } catch (error) {
     console.error('[v0] Registration error:', error)
+    const errorMessage = error instanceof Error ? error.message : 'Something went wrong during registration'
     return NextResponse.json(
-      { error: 'Something went wrong during registration' },
+      { message: errorMessage, error: 'Registration failed' },
       { status: 500 }
     )
   }

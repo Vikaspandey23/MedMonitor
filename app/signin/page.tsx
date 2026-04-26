@@ -43,7 +43,8 @@ export default function SignIn() {
       const data = await response.json()
 
       if (!response.ok) {
-        setError(data.message || "Sign in failed. Please try again.")
+        setError(data.message || data.error || "Sign in failed. Please try again.")
+        console.error("[v0] Login error response:", data)
         return
       }
 
