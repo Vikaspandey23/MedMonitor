@@ -1179,3 +1179,6 @@ Import trace:
 [00:36:04.931] Server  LOG      ✓ Compiled in 53ms
 [00:36:27.799] Server  LOG        Reload env: .env.local
 [00:36:43.638] Server  LOG      ✓ Compiled in 187ms
+[00:44:19.446] Server  LOG      ✓ Compiled in 240ms
+[00:44:24.003] Server  LOG      ✓ Compiled in 93ms
+[00:44:31.510] Server  LOG      ✓ Compiled in 110ms
