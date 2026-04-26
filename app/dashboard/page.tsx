@@ -5,21 +5,27 @@ import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { LogOut, User, Heart, Activity } from "lucide-react"
+import { useAuth } from "@/app/providers"
 
 export default function Dashboard() {
   const router = useRouter()
+  const { isAuthenticated, isLoading: authLoading, token } = useAuth()
   const [user, setUser] = useState<any>(null)
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
+    // Wait for auth context to initialize
+    if (authLoading) return
+
+    // If not authenticated, redirect to signin
+    if (!isAuthenticated || !token) {
+      router.push("/signin")
+      return
+    }
+
+    // Fetch user profile if authenticated
     const fetchUser = async () => {
       try {
-        const token = localStorage.getItem("authToken")
-        if (!token) {
-          router.push("/signin")
-          return
-        }
-
         const response = await fetch("/api/user/profile", {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -27,7 +33,6 @@ export default function Dashboard() {
         })
 
         if (!response.ok) {
-          localStorage.removeItem("authToken")
           router.push("/signin")
           return
         }
@@ -43,14 +48,14 @@ export default function Dashboard() {
     }
 
     fetchUser()
-  }, [router])
+  }, [authLoading, isAuthenticated, token, router])
 
   const handleLogout = () => {
     localStorage.removeItem("authToken")
     router.push("/")
   }
 
-  if (isLoading) {
+  if (authLoading || isLoading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">

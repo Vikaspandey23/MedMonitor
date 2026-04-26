@@ -7,11 +7,13 @@ import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { ArrowLeft, Mail, Lock, User, Eye, EyeOff, Heart, Loader2 } from "lucide-react"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
+import { useAuth } from "@/app/providers"
 
 export default function Login() {
   const router = useRouter()
+  const { isAuthenticated, isLoading: authLoading, setToken } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
@@ -21,6 +23,13 @@ export default function Login() {
     password: "",
     confirmPassword: "",
   })
+
+  // If already authenticated, redirect to dashboard
+  useEffect(() => {
+    if (!authLoading && isAuthenticated) {
+      router.push("/dashboard")
+    }
+  }, [isAuthenticated, authLoading, router])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -59,13 +68,12 @@ export default function Login() {
         return
       }
 
-      // Store token if provided
+      // Store token using auth context
       if (data.token) {
-        localStorage.setItem("authToken", data.token)
+        setToken(data.token)
+        // Redirect to dashboard
+        router.push("/dashboard")
       }
-
-      // Redirect to signin or dashboard
-      router.push("/signin?registered=true")
     } catch (err) {
       setError("An error occurred. Please try again.")
       console.error("[v0] Registration error:", err)
