@@ -16,7 +16,6 @@ export default function CTASection() {
 
     if (!token) {
       // Redirect to signin if not logged in
-      console.log("[v0] No auth token found, redirecting to signin")
       router.push("/signin")
       return
     }
