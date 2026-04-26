@@ -13,18 +13,11 @@ import { useAuth } from "@/app/providers"
 
 export default function SignIn() {
   const router = useRouter()
-  const { isAuthenticated, isLoading: authLoading, setToken, setUser } = useAuth()
+  const { setToken, setUser } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
   const [formData, setFormData] = useState({ email: "", password: "" })
-
-  // If already authenticated, redirect to dashboard
-  useEffect(() => {
-    if (!authLoading && isAuthenticated) {
-      router.push("/dashboard")
-    }
-  }, [isAuthenticated, authLoading, router])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -54,7 +47,7 @@ export default function SignIn() {
 
       if (!response.ok) {
         setError(data.message || data.error || "Sign in failed. Please try again.")
-        console.error("[v0] Login error response:", data)
+        setIsLoading(false)
         return
       }
 
@@ -65,13 +58,13 @@ export default function SignIn() {
         if (data.user) {
           setUser(data.user)
         }
-        // Redirect to home page
-        router.push("/")
+        // Small delay to ensure state is updated before redirect
+        setTimeout(() => {
+          router.push("/")
+        }, 100)
       }
     } catch (err) {
       setError("An error occurred. Please try again.")
-      console.error("[v0] Sign in error:", err)
-    } finally {
       setIsLoading(false)
     }
   }

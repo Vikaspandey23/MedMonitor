@@ -9,9 +9,10 @@ import { useAuth } from "@/app/providers"
 
 export default function Dashboard() {
   const router = useRouter()
-  const { isAuthenticated, isLoading: authLoading, token } = useAuth()
+  const { isAuthenticated, isLoading: authLoading, token, logout } = useAuth()
   const [user, setUser] = useState<any>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [redirecting, setRedirecting] = useState(false)
 
   useEffect(() => {
     // Wait for auth context to initialize
@@ -19,8 +20,11 @@ export default function Dashboard() {
 
     // If not authenticated, redirect to signin
     if (!isAuthenticated || !token) {
-      router.push("/signin")
-      return
+      setRedirecting(true)
+      const timer = setTimeout(() => {
+        router.push("/signin")
+      }, 100)
+      return () => clearTimeout(timer)
     }
 
     // Fetch user profile if authenticated
@@ -33,17 +37,23 @@ export default function Dashboard() {
         })
 
         if (!response.ok) {
-          router.push("/signin")
-          return
+          setRedirecting(true)
+          const timer = setTimeout(() => {
+            router.push("/signin")
+          }, 100)
+          return () => clearTimeout(timer)
         }
 
         const data = await response.json()
         setUser(data.user)
+        setIsLoading(false)
       } catch (error) {
         console.error("[v0] Profile fetch error:", error)
-        router.push("/signin")
-      } finally {
-        setIsLoading(false)
+        setRedirecting(true)
+        const timer = setTimeout(() => {
+          router.push("/signin")
+        }, 100)
+        return () => clearTimeout(timer)
       }
     }
 
@@ -51,11 +61,12 @@ export default function Dashboard() {
   }, [authLoading, isAuthenticated, token, router])
 
   const handleLogout = () => {
-    localStorage.removeItem("authToken")
+    logout()
     router.push("/")
   }
 
-  if (authLoading || isLoading) {
+  // Show loading while auth is initializing or redirecting
+  if (authLoading || isLoading || redirecting) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
