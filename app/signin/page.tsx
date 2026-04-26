@@ -138,6 +138,12 @@ export default function SignIn() {
             )}
           </Button>
 
+          <Link href="/login" className="block">
+            <Button size="lg" variant="outline" className="w-full border-border hover:bg-muted">
+              Create Account
+            </Button>
+          </Link>
+
           <div className="relative my-6">
             <div className="absolute inset-0 flex items-center">
               <div className="w-full border-t border-border"></div>
