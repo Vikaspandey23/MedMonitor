@@ -3187,3 +3187,811 @@ Module not found: Can't resolve 'jsonwebtoken'
   7 | export async function POST(req: NextRequest) {
 
 https://nextjs.org/docs/messages/module-not-found
+[01:16:55.931] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:59.879] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:59.981] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:59.981] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.421] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.421] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.840] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.840] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:14.328] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:14.328] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:16.578] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:16.682] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:16.682] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:17.017] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:17.017] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:18.220] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:18.688] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:18.688] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:40.748] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:40.748] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:41.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:41.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:45.581] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:45.581] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:46.330] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:46.330] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.046] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.046] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:54.487] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:54.487] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:55.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:55.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.201] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.201] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.334] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.334] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:11.696] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:11.696] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:12.340] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:12.340] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.116] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.116] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.344] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.345] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.161] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.161] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:27.741] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:27.741] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:28.337] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:28.337] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.086] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.086] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found

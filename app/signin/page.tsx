@@ -13,7 +13,7 @@ import { useAuth } from "@/app/providers"
 
 export default function SignIn() {
   const router = useRouter()
-  const { isAuthenticated, isLoading: authLoading, setToken } = useAuth()
+  const { isAuthenticated, isLoading: authLoading, setToken, setUser } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
@@ -61,8 +61,12 @@ export default function SignIn() {
       // Store token using auth context
       if (data.token) {
         setToken(data.token)
-        // Redirect to dashboard
-        router.push("/dashboard")
+        // Store user data
+        if (data.user) {
+          setUser(data.user)
+        }
+        // Redirect to home page
+        router.push("/")
       }
     } catch (err) {
       setError("An error occurred. Please try again.")
