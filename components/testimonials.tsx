@@ -13,35 +13,27 @@ export default function Testimonials() {
 
   const testimonials = [
     {
-      name: "Amanda Mitchell",
-      role: "Regular User",
+      name: "Sarah Martinez",
+      role: "Caregiver for Mother",
       content:
-        "Med Monitor's emergency system gave me peace of mind. The SOS feature and real-time alerts have been lifesaving. Highly recommended!",
+        "I can now monitor my mom&apos;s medications from work. The emergency alerts give me peace of mind, and the family sharing feature lets my siblings stay connected too.",
       avatar: "👩‍⚕️",
       rating: 5,
     },
     {
-      name: "James Carter",
-      role: "Heart Patient",
+      name: "Robert Chen",
+      role: "Elderly Patient",
       content:
-        "The heart rate monitoring and vital alerts are incredibly accurate. I can track my progress and share data with my cardiologist instantly.",
-      avatar: "👨‍💼",
+        "Finally, an app that&apos;s easy to use. The medication reminders helped me never miss a dose, and my doctor can see everything I need from their side.",
+      avatar: "👴",
       rating: 5,
     },
     {
-      name: "Lisa Wong",
-      role: "Fitness Enthusiast",
+      name: "Dr. Priya Sharma",
+      role: "Clinic Administrator",
       content:
-        "The AI-powered health insights help me optimize my workout routines. The app is intuitive and the doctor consultations are always helpful.",
-      avatar: "👩‍💻",
-      rating: 5,
-    },
-    {
-      name: "Robert Johnson",
-      role: "Senior User",
-      content:
-        "Despite my age, I found the app easy to use. The voice commands and large text options make it very accessible. Great support team!",
-      avatar: "👨‍🦳",
+        "We&apos;ve integrated Med Monitor into our patient care. It&apos;s reduced no-shows by 40% and made patient communication incredibly efficient.",
+      avatar: "👩‍⚕️",
       rating: 5,
     },
   ]
@@ -101,13 +93,13 @@ export default function Testimonials() {
     <section id="testimonials" className="py-16 md:py-24 bg-background">
       <div ref={containerRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="testimonials-title text-3xl md:text-4xl font-bold mb-4">What Users Say</h2>
+          <h2 className="testimonials-title text-3xl md:text-4xl font-bold mb-4">Trusted by Families, Patients & Clinics</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Thousands of people trust Med Monitor for their health every day.
+            Real people, real results—from caregivers to elderly patients to healthcare providers.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 mb-12">
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
           {testimonials.map((testimonial, i) => (
             <Card
               key={i}
