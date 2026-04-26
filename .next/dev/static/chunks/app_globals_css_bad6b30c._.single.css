@@ -3056,6 +3056,10 @@
     color: var(--color-yellow-400);
   }
 
+  .lowercase {
+    text-transform: lowercase;
+  }
+
   .italic {
     font-style: italic;
   }
