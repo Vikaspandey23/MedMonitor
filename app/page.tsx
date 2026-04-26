@@ -1,11 +1,9 @@
 import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
+import ProblemSection from "@/components/problem-section"
 import FeaturesOverview from "@/components/features-overview"
-import VitalsTracking from "@/components/vitals-tracking"
-import DoctorConsultation from "@/components/doctor-consultation"
-import EmergencySystem from "@/components/emergency-system"
-import AIIntegration from "@/components/ai-integration"
-import SecurityFeatures from "@/components/security-features"
+import HowItWorks from "@/components/how-it-works"
+import UserRoles from "@/components/user-roles"
 import Benefits from "@/components/benefits"
 import Testimonials from "@/components/testimonials"
 import CTASection from "@/components/cta-section"
@@ -16,12 +14,10 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <HeroSection />
+      <ProblemSection />
       <FeaturesOverview />
-      <VitalsTracking />
-      <DoctorConsultation />
-      <EmergencySystem />
-      <AIIntegration />
-      <SecurityFeatures />
+      <HowItWorks />
+      <UserRoles />
       <Benefits />
       <Testimonials />
       <CTASection />

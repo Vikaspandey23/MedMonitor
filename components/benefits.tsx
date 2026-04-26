@@ -2,14 +2,14 @@ import { Card } from "@/components/ui/card"
 import { CheckCircle } from "lucide-react"
 
 const benefits = [
-  "Reduces hospital visits by 40%",
-  "24/7 access to medical professionals",
-  "Continuous health monitoring",
-  "Early detection of health issues",
-  "Personalized health recommendations",
-  "Complete medical record management",
-  "Insurance integration support",
-  "Family health tracking",
+  "Never miss a medication dose",
+  "Emergency help at your fingertips",
+  "Reduce hospital visits by 40%",
+  "Caregivers can help from anywhere",
+  "HIPAA-compliant & secure",
+  "Simple interface for all ages",
+  "Real-time family notifications",
+  "Clinic-integrated prescriptions",
 ]
 
 export default function Benefits() {
@@ -17,9 +17,9 @@ export default function Benefits() {
     <section className="py-12 md:py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Med Monitor</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Key Benefits</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transform your healthcare experience with our comprehensive platform.
+            Healthcare that works for your life.
           </p>
         </div>
 

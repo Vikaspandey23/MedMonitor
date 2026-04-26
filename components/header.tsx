@@ -1,12 +1,22 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, LogOut, User as UserIcon } from "lucide-react"
 import { useState } from "react"
 import Link from "next/link"
+import { useAuth } from "@/app/providers"
+import { useRouter } from "next/navigation"
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const { isAuthenticated, user, logout } = useAuth()
+  const router = useRouter()
+
+  const handleLogout = () => {
+    logout()
+    router.push("/")
+    setIsOpen(false)
+  }
 
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
@@ -45,16 +55,37 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center gap-4">
-            <Link href="/signin">
-              <Button variant="ghost" size="sm">
-                Sign In
-              </Button>
-            </Link>
-            <Link href="/login">
-              <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                Create Account
-              </Button>
-            </Link>
+            {isAuthenticated && user ? (
+              <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted">
+                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-bold text-sm">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                  <span className="text-sm font-medium text-foreground">{user.name}</span>
+                </div>
+                <Button 
+                  onClick={handleLogout}
+                  variant="ghost" 
+                  size="sm"
+                  className="text-muted-foreground hover:text-foreground"
+                >
+                  <LogOut className="w-4 h-4" />
+                </Button>
+              </div>
+            ) : (
+              <>
+                <Link href="/signin">
+                  <Button variant="ghost" size="sm">
+                    Sign In
+                  </Button>
+                </Link>
+                <Link href="/login">
+                  <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                    Create Account
+                  </Button>
+                </Link>
+              </>
+            )}
           </div>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
@@ -79,18 +110,37 @@ export default function Header() {
             <a href="#testimonials" className="block px-4 py-2 text-sm text-foreground hover:bg-muted rounded">
               Testimonials
             </a>
-            <div className="px-4 py-2 space-y-2">
-              <Link href="/signin" className="block">
-                <Button variant="ghost" size="sm" className="w-full">
-                  Sign In
+            {isAuthenticated && user ? (
+              <div className="px-4 py-2 space-y-2 border-t border-border mt-2 pt-2">
+                <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-muted">
+                  <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white font-bold text-sm">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                  <span className="text-sm font-medium text-foreground">{user.name}</span>
+                </div>
+                <Button 
+                  onClick={handleLogout}
+                  size="sm" 
+                  className="w-full bg-red-500 hover:bg-red-600 text-white"
+                >
+                  <LogOut className="w-4 h-4 mr-2" />
+                  Logout
                 </Button>
-              </Link>
-              <Link href="/login" className="block">
-                <Button size="sm" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                  Create Account
-                </Button>
-              </Link>
-            </div>
+              </div>
+            ) : (
+              <div className="px-4 py-2 space-y-2 border-t border-border mt-2 pt-2">
+                <Link href="/signin" className="block">
+                  <Button variant="ghost" size="sm" className="w-full">
+                    Sign In
+                  </Button>
+                </Link>
+                <Link href="/login" className="block">
+                  <Button size="sm" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+                    Create Account
+                  </Button>
+                </Link>
+              </div>
+            )}
           </nav>
         )}
       </div>

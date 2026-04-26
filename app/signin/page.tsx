@@ -5,18 +5,68 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
-import { ArrowLeft, Mail, Lock, Eye, EyeOff } from "lucide-react"
+import { ArrowLeft, Mail, Lock, Eye, EyeOff, Loader2 } from "lucide-react"
 import Link from "next/link"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { useRouter } from "next/navigation"
+import { useAuth } from "@/app/providers"
 
 export default function SignIn() {
+  const router = useRouter()
+  const { setToken, setUser } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState("")
   const [formData, setFormData] = useState({ email: "", password: "" })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("Sign in attempted with:", formData)
-    // Here you would integrate with your auth system
+    setError("")
+
+    // Frontend validation - check for empty values
+    if (!formData.email || !formData.password) {
+      setError("Please provide email and password")
+      return
+    }
+
+    setIsLoading(true)
+
+    try {
+      const response = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: formData.email.trim().toLowerCase(),
+          password: formData.password,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        setError(data.message || data.error || "Sign in failed. Please try again.")
+        setIsLoading(false)
+        return
+      }
+
+      // Store token using auth context
+      if (data.token) {
+        setToken(data.token)
+        // Store user data
+        if (data.user) {
+          setUser(data.user)
+        }
+        // Small delay to ensure state is updated before redirect
+        setTimeout(() => {
+          router.push("/")
+        }, 100)
+      }
+    } catch (err) {
+      setError("An error occurred. Please try again.")
+      setIsLoading(false)
+    }
   }
 
   return (
@@ -33,6 +83,11 @@ export default function SignIn() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="bg-red-500/10 border border-red-500/20 text-red-600 px-4 py-3 rounded-lg text-sm">
+              {error}
+            </div>
+          )}
           <div>
             <label className="text-sm font-medium mb-2 block">Email Address</label>
             <div className="relative">
@@ -80,9 +135,22 @@ export default function SignIn() {
             </Link>
           </div>
 
-          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-            Sign In
+          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" disabled={isLoading}>
+            {isLoading ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Signing in...
+              </>
+            ) : (
+              "Sign In"
+            )}
           </Button>
+
+          <Link href="/login" className="block">
+            <Button size="lg" variant="outline" className="w-full border-border hover:bg-muted">
+              Create Account
+            </Button>
+          </Link>
 
           <div className="relative my-6">
             <div className="absolute inset-0 flex items-center">

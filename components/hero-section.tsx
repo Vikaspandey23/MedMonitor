@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Download, Activity } from "lucide-react"
+import { Activity, Pill, Users, AlertCircle, FileText } from "lucide-react"
 import Link from "next/link"
 import gsap from "gsap"
 
@@ -89,14 +89,6 @@ export default function HeroSection() {
     return () => ctx.revert()
   }, [])
 
-  const handleDownload = (platform: string) => {
-    if (platform === "ios") {
-      window.open("https://apps.apple.com", "_blank")
-    } else {
-      window.open("https://play.google.com", "_blank")
-    }
-  }
-
   return (
     <section
       ref={heroRef}
@@ -108,78 +100,95 @@ export default function HeroSection() {
           <div ref={contentRef} className="space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 rounded-full border border-white/20 glass-effect animate-slide-in-left">
               <Activity className="w-4 h-4" />
-              <span className="text-sm font-medium">24/7 Health Monitoring</span>
+              <span className="text-sm font-medium">Trusted by Families & Clinics</span>
             </div>
 
             <div>
               <h1 className="hero-title text-4xl md:text-5xl font-bold text-balance leading-tight">
-                Your Health, <span className="text-accent-foreground">Always</span> in Control
+                Peace of Mind for <span className="text-accent-foreground">Those You Love</span>
               </h1>
             </div>
 
             <p className="hero-description text-lg text-white/80 max-w-md leading-relaxed">
-              Real-time vital monitoring, instant doctor consultations, emergency response system, and AI-powered health
-              insights all in one app.
+              Medication reminders, emergency access, and family connection—all in one trusted platform.
             </p>
 
             <div className="hero-buttons flex flex-col sm:flex-row gap-4 pt-4">
-              <Button
-                size="lg"
-                className="bg-white hover:bg-white/90 text-primary gap-2 cursor-pointer shadow-glow-lg hover-lift"
-                onClick={() => handleDownload("android")}
-              >
-                <Download className="w-4 h-4" />
-                Download Now
-              </Button>
               <Link href="#features">
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="border-white text-white hover:bg-white/10 bg-transparent hover-lift"
+                  className="bg-white hover:bg-white/90 text-primary gap-2 cursor-pointer shadow-glow-lg hover-lift"
                 >
-                  Learn More
+                  Get Started Free
                 </Button>
               </Link>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white/10 bg-transparent hover-lift"
+              >
+                Learn More
+              </Button>
             </div>
 
             <div ref={statsRef} className="grid grid-cols-3 gap-4 pt-8">
               <div className="stat-item">
-                <p className="text-2xl font-bold">10,000+</p>
-                <p className="text-sm text-white/70">Active Users</p>
+                <p className="text-2xl font-bold">2000+</p>
+                <p className="text-sm text-white/70">Families</p>
               </div>
               <div className="stat-item">
-                <p className="text-2xl font-bold">500+</p>
-                <p className="text-sm text-white/70">Verified Doctors</p>
+                <p className="text-2xl font-bold">150+</p>
+                <p className="text-sm text-white/70">Clinics</p>
               </div>
               <div className="stat-item">
-                <p className="text-2xl font-bold">99%</p>
-                <p className="text-sm text-white/70">Uptime</p>
+                <p className="text-2xl font-bold">HIPAA</p>
+                <p className="text-sm text-white/70">Certified</p>
               </div>
             </div>
           </div>
 
           <div ref={cardRef} className="relative">
-            <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-2xl overflow-hidden shadow-2xl border border-white/20 p-6 glass-effect animate-glow">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Heart Rate</p>
-                  <p className="text-3xl font-bold">72</p>
-                  <p className="text-xs text-white/50">bpm</p>
+            <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-2xl overflow-hidden shadow-2xl border border-white/20 p-8 glass-effect animate-glow">
+              <div className="grid grid-cols-2 gap-5">
+                <div className="vital-card bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 rounded-xl p-5 backdrop-blur border border-emerald-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-emerald-500/30 p-2.5 rounded-lg">
+                      <Pill className="w-5 h-5 text-emerald-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Medications</p>
+                  <p className="text-4xl font-bold text-white mb-1">3</p>
+                  <p className="text-xs text-white/60">Today&apos;s doses</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Blood Pressure</p>
-                  <p className="text-2xl font-bold">120/80</p>
-                  <p className="text-xs text-white/50">mmHg</p>
+                <div className="vital-card bg-gradient-to-br from-purple-500/20 to-purple-600/10 rounded-xl p-5 backdrop-blur border border-purple-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-purple-500/30 p-2.5 rounded-lg">
+                      <Users className="w-5 h-5 text-purple-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Family Access</p>
+                  <p className="text-4xl font-bold text-white mb-1">2</p>
+                  <p className="text-xs text-white/60">Caregivers</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">SpO2</p>
-                  <p className="text-3xl font-bold">98%</p>
-                  <p className="text-xs text-white/50">Oxygen</p>
+                <div className="vital-card bg-gradient-to-br from-rose-500/20 to-rose-600/10 rounded-xl p-5 backdrop-blur border border-rose-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-rose-500/30 p-2.5 rounded-lg">
+                      <AlertCircle className="w-5 h-5 text-rose-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Emergency SOS</p>
+                  <p className="text-4xl font-bold text-rose-300 mb-1">✓</p>
+                  <p className="text-xs text-white/60">Active & Ready</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Steps</p>
-                  <p className="text-3xl font-bold">8.2k</p>
-                  <p className="text-xs text-white/50">today</p>
+                <div className="vital-card bg-gradient-to-br from-cyan-500/20 to-cyan-600/10 rounded-xl p-5 backdrop-blur border border-cyan-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-cyan-500/30 p-2.5 rounded-lg">
+                      <FileText className="w-5 h-5 text-cyan-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Health Records</p>
+                  <p className="text-4xl font-bold text-white mb-1">15</p>
+                  <p className="text-xs text-white/60">Saved & Secure</p>
                 </div>
               </div>
             </div>

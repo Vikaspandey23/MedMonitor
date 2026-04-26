@@ -11,34 +11,23 @@ gsap.registerPlugin(ScrollTrigger)
 const features = [
   {
     icon: Activity,
-    title: "Real-Time Vitals",
-    description:
-      "Monitor heart rate, blood pressure, SpO2, temperature, and more in real-time with wearable integration.",
-  },
-  {
-    icon: Phone,
-    title: "1-on-1 Consultation",
-    description: "Instant video calls, voice consultations, and live chat with verified healthcare professionals.",
+    title: "Medication Management",
+    description: "Automatic reminders for doses, prescription refills, and medication history all in one place.",
   },
   {
     icon: AlertCircle,
-    title: "Emergency Response",
-    description: "SOS button, automatic vital alerts, live location sharing, and emergency contact notifications.",
+    title: "Emergency SOS",
+    description: "One-tap emergency access to contacts, location sharing, and instant alerts to family.",
   },
   {
-    icon: Zap,
-    title: "AI Health Insights",
-    description: "Personalized recommendations, health trend analysis, and predictive alerts powered by AI.",
-  },
-  {
-    icon: Mic,
-    title: "Voice Control",
-    description: "Hands-free commands for quick access to health data, appointments, and emergency features.",
+    icon: Phone,
+    title: "Role-Based Access",
+    description: "Caregivers, family members, and clinics access what they need with complete privacy controls.",
   },
   {
     icon: Lock,
-    title: "Secure Cloud Storage",
-    description: "End-to-end encrypted medical records with HIPAA-compliant secure cloud backup.",
+    title: "Secure Records",
+    description: "HIPAA-compliant storage with end-to-end encryption for all your health information.",
   },
 ]
 
@@ -104,13 +93,13 @@ export default function FeaturesOverview() {
     <section id="features" className="py-12 md:py-20 bg-background">
       <div ref={containerRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div ref={headingRef} className="text-center mb-12">
-          <h2 className="features-title text-3xl md:text-4xl font-bold mb-4">Comprehensive Health Management</h2>
+          <h2 className="features-title text-3xl md:text-4xl font-bold mb-4">Built for Caregivers, Families & Clinics</h2>
           <p className="features-subtitle text-lg text-muted-foreground max-w-2xl mx-auto">
-            Everything you need for complete health monitoring and medical care in one powerful app.
+            Everything you need to stay connected and manage health with confidence.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => {
             const Icon = feature.icon
             return (

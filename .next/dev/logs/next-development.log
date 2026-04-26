@@ -1,6 +1,4173 @@
-[00:00:24.234] Server  LOG      ✓ Ready in 14.9s
-[00:00:45.164] Server  LOG      ○ Compiling / ...
-[00:00:54.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:55.636] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:55.637] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:55.637] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777222695196} /_vercel/insights/view
+[00:00:01.087] Server  LOG      ✓ Ready in 696ms
+[00:00:06.947] Server  LOG      ○ Compiling / ...
+[00:00:15.265] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.265] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:15.265] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/#testimonials color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/#testimonials","r":"https://v0.app/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777223088006} /_vercel/insights/view
+[00:11:59.180] Server  LOG      ✓ Compiled in 156ms
+[00:12:02.881] Server  LOG      ✓ Compiled in 67ms
+[00:12:07.162] Server  LOG      ✓ Compiled in 62ms
+[00:12:13.870] Server  LOG      ✓ Compiled in 58ms
+[00:12:20.367] Server  LOG      ✓ Compiled in 81ms
+[00:12:24.591] Server  LOG      ✓ Compiled in 53ms
+[00:12:27.500] Server  LOG      ✓ Compiled in 47ms
+[00:12:35.446] Server  LOG      ✓ Compiled in 49ms
+[00:12:40.893] Server  LOG      ✓ Compiled in 50ms
+[00:12:45.920] Server  LOG      ✓ Compiled in 57ms
+[00:12:53.537] Server  LOG      ✓ Compiled in 86ms
+[00:12:57.497] Server  LOG      ✓ Compiled in 54ms
+[00:13:06.602] Server  LOG      ✓ Compiled in 143ms
+[00:13:16.423] Server  LOG      ✓ Compiled in 147ms
+[00:13:26.628] Server  LOG      ✓ Compiled in 162ms
+[00:13:38.931] Server  LOG      ✓ Compiled in 7.3s
+[00:13:40.236] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:40.236] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:43.640] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:43.640] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:47.101] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:47.101] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:54.113] Server  LOG      ✓ Compiled in 71ms
+[00:13:55.235] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:55.235] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:57.680] Server  LOG      ✓ Compiled in 53ms
+[00:13:58.790] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:13:58.790] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:25.445] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:14:26.595] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.595] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.925] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.925] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.032] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.032] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.396] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.396] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:30.965] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:14:31.070] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:31.070] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.100] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.100] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.146] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.146] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.330] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.330] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.414] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.414] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:13.881] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:15.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:15.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:16.247] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:16.357] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:16.357] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.325] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.325] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.480] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.480] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:42.206] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:43.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:43.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:44.530] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:44.653] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:44.653] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.663] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.663] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.895] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.895] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:16:20.502] Server  LOG      ✓ Compiled in 229ms
+[00:16:22.118] Server  ERROR    ⨯ ReferenceError: MapOff is not defined
+[00:16:22.164] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:22.542] Server  ERROR    ⨯ ReferenceError: MapOff is not defined
+[00:16:23.995] Server  LOG      ✓ Compiled in 81ms
+[00:16:24.465] Browser ERROR   uncaughtError: ReferenceError: MapOff is not defined
+[00:16:27.476] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/problem-section.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:28.425] Browser ERROR   uncaughtError: ReferenceError: MapOff is not defined
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:31.221] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:32.092] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:32.092] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:16:32.092] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224064459} /_vercel/insights/view
+[00:16:33.624] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:33.624] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:16:33.624] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/#home","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224065511} /_vercel/insights/view
+[00:17:07.501] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224100473} /_vercel/insights/view
+[00:17:11.806] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224104857} /_vercel/insights/view
+[00:17:13.971] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224107073} /_vercel/insights/view
+[00:17:16.641] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224109695} /_vercel/insights/view
+[00:18:31.753] Server  LOG      ✓ Compiled in 180ms
+[00:19:30.280] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:30.281] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:30.281] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","r":"https://v0.app/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777224243336} /_vercel/insights/view
+[00:33:28.820] Server  LOG        Reload env: .env.local
+[00:33:42.578] Server  LOG      ✓ Compiled in 181ms
+[00:34:18.624] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:34:18.624] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:34:18.624] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","r":"https://v0.app/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225131079} /_vercel/insights/view
+[00:35:43.262] Server  LOG      ✓ Compiled in 91ms
+[00:35:47.147] Server  LOG      ✓ Compiled in 152ms
+[00:35:50.725] Server  LOG      ✓ Compiled in 156ms
+[00:35:57.923] Server  LOG      ✓ Compiled in 87ms
+[00:36:01.564] Server  LOG      ✓ Compiled in 50ms
+[00:36:04.931] Server  LOG      ✓ Compiled in 53ms
+[00:36:27.799] Server  LOG        Reload env: .env.local
+[00:36:43.638] Server  LOG      ✓ Compiled in 187ms
+[00:44:19.446] Server  LOG      ✓ Compiled in 240ms
+[00:44:24.003] Server  LOG      ✓ Compiled in 93ms
+[00:44:31.510] Server  LOG      ✓ Compiled in 110ms
+[00:45:18.208] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:45:18.208] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:45:18.208] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:45:18.208] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225790843} /_vercel/insights/view
+[00:46:13.778] Server  LOG      ✓ Compiled in 55ms
+[00:46:19.654] Server  LOG      ✓ Compiled in 170ms
+[00:46:26.285] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:46:26.285] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:46:26.285] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225857797} /_vercel/insights/view
+[00:46:28.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:28.615] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:46:28.615] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:46:28.615] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225860782} /_vercel/insights/view
+[00:47:42.658] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:42.658] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:42.658] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:47:42.658] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225933833} /_vercel/insights/view
+[00:47:51.557] Browser LOG     [v0] No auth token found, redirecting to signin
+[00:47:53.247] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin color: rgb(120, 120, 120) color: inherit {"dp":"/signin","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/signin","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777225946330} /_vercel/insights/view
+[00:49:02.116] Server  LOG      ✓ Compiled in 93ms
+[00:49:42.606] Browser LOG     %c[Vercel Web Analytics]%c [view] https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"https://vm-6wdj8qyvfh1r1lzz3i6sz6e8.vusercontent.net/login","sdkn":"@vercel/analytics/next","sdkv":"2.0.1","sv":"0.1.3","ts":1777226055712} /_vercel/insights/view
+[00:50:20.961] Server  ERROR    ⨯ ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:50:21.551] Browser ERROR   [v0] Registration error: {}
+[00:50:21.551] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:50:21.551] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:50:22.370] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:50:22.370] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:28.724] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:28.724] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:29.366] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:29.366] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:33.168] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:33.169] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:33.351] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:33.351] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:50.999] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:50.999] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:51.331] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:51.331] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:55.158] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:55.158] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:55.359] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:51:55.359] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:06.373] Server  LOG      ✓ Compiled in 67ms
+[00:52:06.798] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:06.799] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:07.351] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:07.351] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:14.388] Server  LOG      ✓ Compiled in 101ms
+[00:52:14.794] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:14.794] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:15.336] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:15.336] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:23.748] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:23.748] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:24.821] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:24.821] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:25.494] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:25.494] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:26.083] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:26.083] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:34.438] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:34.438] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:34.438] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:34.438] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.501] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.508] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.508] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.508] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.508] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:52:35.512] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:15.593] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:15.593] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:19.228] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:19.228] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:19.696] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:53:19.821] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:19.821] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:20.157] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:20.157] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:20.168] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:20.168] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:33.351] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:33.351] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.341] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.341] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.470] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:53:37.581] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.581] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.900] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:37.900] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:38.371] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:38.371] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:43.012] Server  LOG      ✓ Compiled in 97ms
+[00:54:43.440] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:43.440] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:44.356] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:44.356] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:49.658] Server  LOG      ✓ Compiled in 89ms
+[00:54:50.065] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:50.065] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:50.342] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:54:50.342] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:37.325] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:37.325] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:42.359] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:42.359] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:46.511] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:56:46.530] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:46.530] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:46.641] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:46.641] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:47.065] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:47.065] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:47.381] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:56:47.381] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:39.355] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:58:39.500] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:39.500] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:39.820] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:58:39.820] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:42.694] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:00:42.802] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:42.802] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:43.132] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:00:43.132] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:45.327] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:45.327] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.126] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:01:49.246] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.246] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.327] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.327] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.566] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:49.566] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:50.342] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:01:50.342] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:28.023] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:28.023] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:36.886] Server  LOG      ✓ Compiled in 59ms
+[01:03:37.283] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:03:37.283] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:11.957] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:04:12.072] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:12.073] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:12.407] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:12.407] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:13.067] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:13.067] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:31.343] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:31.343] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:34.536] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:04:34.667] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:34.667] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.019] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.019] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.357] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.357] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.357] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:35.357] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:44.607] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:04:44.773] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:44.773] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:45.087] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:45.087] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.387] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.387] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.797] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.797] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.937] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:47.937] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:52.868] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:04:53.009] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:53.009] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.180] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:04:57.283] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.283] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.912] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:04:57.912] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:10:59.954] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:10:59.954] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:14.454] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:14.455] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:22.384] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:11:22.384] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:26.825] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:26.825] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:42.593] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:42.593] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:48.532] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:14:48.532] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:55.931] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:57.355] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:59.879] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:16:59.981] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:16:59.981] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.421] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.421] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.840] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:00.840] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:14.328] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:14.328] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:15.339] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:16.578] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:16.682] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:16.682] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:17.017] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:17.017] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:18.220] Browser ERROR   uncaughtError: Error: ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:17:18.688] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:18.688] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:17:19.336] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:40.748] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:40.748] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:41.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:41.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:45.581] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:45.581] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:46.330] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:46.330] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.046] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.046] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:50.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:54.487] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:54.487] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:55.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:21:55.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.201] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.201] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.334] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:07.334] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:11.696] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:11.696] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:12.340] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:12.340] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.116] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.116] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.344] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:16.345] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.161] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.161] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:21.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:27.741] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:27.741] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:28.337] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:28.337] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.086] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.086] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.320] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:22:37.320] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:24:31.294] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:24:31.294] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:27:16.196] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:27:16.196] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:47.216] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:47.216] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:54.491] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:37:54.491] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:00.970] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:00.970] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:09.195] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:09.195] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:15.886] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:15.886] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:20.625] Browser ERROR   ./app/api/auth/register/route.ts:3:1
+Module not found: Can't resolve 'bcryptjs'
+  1 | import { connectDB } from '@/lib/mongodb'
+  2 | import { User } from '@/lib/models/User'
+> 3 | import bcrypt from 'bcryptjs'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import jwt from 'jsonwebtoken'
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+
+https://nextjs.org/docs/messages/module-not-found
+[01:38:20.625] Browser ERROR   ./app/api/auth/register/route.ts:4:1
+Module not found: Can't resolve 'jsonwebtoken'
+  2 | import { User } from '@/lib/models/User'
+  3 | import bcrypt from 'bcryptjs'
+> 4 | import jwt from 'jsonwebtoken'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { NextRequest, NextResponse } from 'next/server'
+  6 |
+  7 | export async function POST(req: NextRequest) {
+
+https://nextjs.org/docs/messages/module-not-found
