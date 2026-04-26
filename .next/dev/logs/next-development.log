@@ -201,3 +201,953 @@ Import trace:
   Server Component:
     ./components/problem-section.tsx
     ./app/page.tsx
+[00:14:25.445] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:14:26.595] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.595] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.925] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:26.925] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.032] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.032] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.396] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:27.396] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:30.965] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:14:31.070] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:31.070] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.100] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.100] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.146] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.146] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.330] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.330] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.414] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:14:32.414] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:13.881] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:15.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:15.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:16.247] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:16.357] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:16.357] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.325] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.325] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.480] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:17.480] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:18.352] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:42.206] Server  ERROR    ⨯ ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+
+./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:43.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:43.340] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:44.530] Browser ERROR   uncaughtError: Error: ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+
+
+[00:15:44.653] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:44.653] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.663] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.663] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.895] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:45.895] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:15:46.358] Browser ERROR   ./components/problem-section.tsx:5:1
+Export MapOff doesn't exist in target module
+  3 | import { useEffect, useRef } from "react"
+  4 | import { Card } from "@/components/ui/card"
+> 5 | import { AlertTriangle, MapOff, Clock } from "lucide-react"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import gsap from "gsap"
+  7 | import { ScrollTrigger } from "gsap/ScrollTrigger"
+  8 |
+
+The export MapOff was not found in module [project]/node_modules/.pnpm/lucide-react@0.454.0_react@19.2.0/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import ZapOff?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/problem-section.tsx
+    ./app/page.tsx
+[00:16:20.502] Server  LOG      ✓ Compiled in 229ms
+[00:16:22.118] Server  ERROR    ⨯ ReferenceError: MapOff is not defined
+[00:16:22.164] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:22.542] Server  ERROR    ⨯ ReferenceError: MapOff is not defined
+[00:16:23.995] Server  LOG      ✓ Compiled in 81ms
+[00:16:24.465] Browser ERROR   uncaughtError: ReferenceError: MapOff is not defined
+[00:16:27.476] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/problem-section.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:16:28.425] Browser ERROR   uncaughtError: ReferenceError: MapOff is not defined
+[00:16:28.425] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.

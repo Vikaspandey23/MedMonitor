@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Card } from "@/components/ui/card"
-import { AlertTriangle, MapOff, Clock } from "lucide-react"
+import { AlertTriangle, Users, Clock } from "lucide-react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
@@ -20,7 +20,7 @@ const problems = [
     description: "Waiting days for appointments or being unable to reach care when it matters most.",
   },
   {
-    icon: MapOff,
+    icon: Users,
     title: "Family Can't Help from Distance",
     description: "Caregivers worry because they can't monitor loved ones or respond quickly to emergencies.",
   },
