@@ -35,6 +35,12 @@ export default function Login() {
     e.preventDefault()
     setError("")
 
+    // Frontend validation
+    if (!formData.name.trim() || !formData.email.trim() || !formData.password.trim() || !formData.confirmPassword.trim()) {
+      setError("Please provide all required fields")
+      return
+    }
+
     if (formData.password !== formData.confirmPassword) {
       setError("Passwords do not match")
       return
@@ -54,10 +60,10 @@ export default function Login() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
+          name: formData.name.trim(),
+          email: formData.email.trim().toLowerCase(),
           password: formData.password,
-          role: "elderly", // Default role, can be changed later
+          role: "elderly",
         }),
       })
 

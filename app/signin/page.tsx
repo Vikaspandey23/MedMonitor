@@ -29,6 +29,13 @@ export default function SignIn() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setError("")
+
+    // Frontend validation
+    if (!formData.email.trim() || !formData.password.trim()) {
+      setError("Please provide email and password")
+      return
+    }
+
     setIsLoading(true)
 
     try {
@@ -37,7 +44,10 @@ export default function SignIn() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          email: formData.email.trim().toLowerCase(),
+          password: formData.password,
+        }),
       })
 
       const data = await response.json()

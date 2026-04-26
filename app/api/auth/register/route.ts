@@ -8,19 +8,12 @@ export async function POST(req: NextRequest) {
   try {
     await connectDB()
 
-    const { name, email, password, confirmPassword, role } = await req.json()
+    const { name, email, password, role } = await req.json()
 
     // Validation
-    if (!name || !email || !password || !confirmPassword) {
+    if (!name || !email || !password) {
       return NextResponse.json(
         { error: 'Please provide all required fields' },
-        { status: 400 }
-      )
-    }
-
-    if (password !== confirmPassword) {
-      return NextResponse.json(
-        { error: 'Passwords do not match' },
         { status: 400 }
       )
     }
