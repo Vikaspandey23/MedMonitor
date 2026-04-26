@@ -5,12 +5,16 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
-import { ArrowLeft, Mail, Lock, User, Eye, EyeOff, Heart } from "lucide-react"
+import { ArrowLeft, Mail, Lock, User, Eye, EyeOff, Heart, Loader2 } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 export default function Login() {
+  const router = useRouter()
   const [showPassword, setShowPassword] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState("")
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,17 +22,56 @@ export default function Login() {
     confirmPassword: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    setError("")
+
     if (formData.password !== formData.confirmPassword) {
-      alert("Passwords do not match")
+      setError("Passwords do not match")
       return
     }
-    console.log("Registration attempted with:", {
-      name: formData.name,
-      email: formData.email,
-    })
-    // Here you would integrate with your auth system
+
+    if (formData.password.length < 8) {
+      setError("Password must be at least 8 characters long")
+      return
+    }
+
+    setIsLoading(true)
+
+    try {
+      const response = await fetch("/api/auth/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          password: formData.password,
+          role: "elderly", // Default role, can be changed later
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        setError(data.message || "Registration failed. Please try again.")
+        return
+      }
+
+      // Store token if provided
+      if (data.token) {
+        localStorage.setItem("authToken", data.token)
+      }
+
+      // Redirect to signin or dashboard
+      router.push("/signin?registered=true")
+    } catch (err) {
+      setError("An error occurred. Please try again.")
+      console.error("[v0] Registration error:", err)
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   return (
@@ -50,6 +93,11 @@ export default function Login() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="bg-red-500/10 border border-red-500/20 text-red-600 px-4 py-3 rounded-lg text-sm">
+              {error}
+            </div>
+          )}
           <div>
             <label className="text-sm font-medium mb-2 block">Full Name</label>
             <div className="relative">
@@ -131,8 +179,15 @@ export default function Login() {
             </span>
           </label>
 
-          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-            Create Account
+          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" disabled={isLoading}>
+            {isLoading ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Creating account...
+              </>
+            ) : (
+              "Create Account"
+            )}
           </Button>
 
           <div className="relative my-6">

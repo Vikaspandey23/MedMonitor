@@ -1,6 +1,7 @@
 import { connectDB } from '@/lib/mongodb'
 import { User } from '@/lib/models/User'
 import bcrypt from 'bcryptjs'
+import jwt from 'jsonwebtoken'
 import { NextRequest, NextResponse } from 'next/server'
 
 export async function POST(req: NextRequest) {
@@ -54,9 +55,17 @@ export async function POST(req: NextRequest) {
 
     console.log('[v0] New user registered:', newUser.email)
 
+    // Generate JWT token
+    const token = jwt.sign(
+      { userId: newUser._id, email: newUser.email, role: newUser.role },
+      process.env.JWT_SECRET || process.env.NEXTAUTH_SECRET || 'your-secret-key',
+      { expiresIn: '7d' }
+    )
+
     return NextResponse.json(
       {
         message: 'User registered successfully',
+        token,
         user: {
           id: newUser._id,
           name: newUser.name,

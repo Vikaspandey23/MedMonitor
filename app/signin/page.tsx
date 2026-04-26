@@ -5,18 +5,52 @@ import type React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
-import { ArrowLeft, Mail, Lock, Eye, EyeOff } from "lucide-react"
+import { ArrowLeft, Mail, Lock, Eye, EyeOff, Loader2 } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 export default function SignIn() {
+  const router = useRouter()
   const [showPassword, setShowPassword] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState("")
   const [formData, setFormData] = useState({ email: "", password: "" })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("Sign in attempted with:", formData)
-    // Here you would integrate with your auth system
+    setError("")
+    setIsLoading(true)
+
+    try {
+      const response = await fetch("/api/auth/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        setError(data.message || "Sign in failed. Please try again.")
+        return
+      }
+
+      // Store token in localStorage
+      if (data.token) {
+        localStorage.setItem("authToken", data.token)
+      }
+
+      // Redirect to dashboard
+      router.push("/dashboard")
+    } catch (err) {
+      setError("An error occurred. Please try again.")
+      console.error("[v0] Sign in error:", err)
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   return (
@@ -33,6 +67,11 @@ export default function SignIn() {
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {error && (
+            <div className="bg-red-500/10 border border-red-500/20 text-red-600 px-4 py-3 rounded-lg text-sm">
+              {error}
+            </div>
+          )}
           <div>
             <label className="text-sm font-medium mb-2 block">Email Address</label>
             <div className="relative">
@@ -80,8 +119,15 @@ export default function SignIn() {
             </Link>
           </div>
 
-          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-            Sign In
+          <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" disabled={isLoading}>
+            {isLoading ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Signing in...
+              </>
+            ) : (
+              "Sign In"
+            )}
           </Button>
 
           <div className="relative my-6">
