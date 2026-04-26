@@ -13,7 +13,7 @@ import { useAuth } from "@/app/providers"
 
 export default function Login() {
   const router = useRouter()
-const { setUser } = useAuth()
+  const { isAuthenticated, isLoading: authLoading, setToken, setUser } = useAuth()
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState("")
