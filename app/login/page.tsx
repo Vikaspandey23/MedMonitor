@@ -35,8 +35,8 @@ export default function Login() {
     e.preventDefault()
     setError("")
 
-    // Frontend validation
-    if (!formData.name.trim() || !formData.email.trim() || !formData.password.trim() || !formData.confirmPassword.trim()) {
+    // Frontend validation - check for empty values
+    if (!formData.name || !formData.email || !formData.password || !formData.confirmPassword) {
       setError("Please provide all required fields")
       return
     }

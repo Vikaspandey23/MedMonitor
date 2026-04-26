@@ -30,8 +30,8 @@ export default function SignIn() {
     e.preventDefault()
     setError("")
 
-    // Frontend validation
-    if (!formData.email.trim() || !formData.password.trim()) {
+    // Frontend validation - check for empty values
+    if (!formData.email || !formData.password) {
       setError("Please provide email and password")
       return
     }
