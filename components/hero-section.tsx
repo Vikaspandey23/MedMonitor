@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { Activity } from "lucide-react"
+import { Activity, Pill, Users, AlertCircle, FileText } from "lucide-react"
 import Link from "next/link"
 import gsap from "gsap"
 
@@ -148,27 +148,47 @@ export default function HeroSection() {
           </div>
 
           <div ref={cardRef} className="relative">
-            <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-2xl overflow-hidden shadow-2xl border border-white/20 p-6 glass-effect animate-glow">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Medications</p>
-                  <p className="text-3xl font-bold">3</p>
-                  <p className="text-xs text-white/50">Today&apos;s doses</p>
+            <div className="bg-gradient-to-br from-white/10 to-white/5 rounded-2xl overflow-hidden shadow-2xl border border-white/20 p-8 glass-effect animate-glow">
+              <div className="grid grid-cols-2 gap-5">
+                <div className="vital-card bg-gradient-to-br from-emerald-500/20 to-emerald-600/10 rounded-xl p-5 backdrop-blur border border-emerald-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-emerald-500/30 p-2.5 rounded-lg">
+                      <Pill className="w-5 h-5 text-emerald-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Medications</p>
+                  <p className="text-4xl font-bold text-white mb-1">3</p>
+                  <p className="text-xs text-white/60">Today&apos;s doses</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Family Access</p>
-                  <p className="text-2xl font-bold">2</p>
-                  <p className="text-xs text-white/50">Caregivers</p>
+                <div className="vital-card bg-gradient-to-br from-purple-500/20 to-purple-600/10 rounded-xl p-5 backdrop-blur border border-purple-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-purple-500/30 p-2.5 rounded-lg">
+                      <Users className="w-5 h-5 text-purple-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Family Access</p>
+                  <p className="text-4xl font-bold text-white mb-1">2</p>
+                  <p className="text-xs text-white/60">Caregivers</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Emergency SOS</p>
-                  <p className="text-3xl font-bold">✓</p>
-                  <p className="text-xs text-white/50">Active</p>
+                <div className="vital-card bg-gradient-to-br from-rose-500/20 to-rose-600/10 rounded-xl p-5 backdrop-blur border border-rose-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-rose-500/30 p-2.5 rounded-lg">
+                      <AlertCircle className="w-5 h-5 text-rose-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Emergency SOS</p>
+                  <p className="text-4xl font-bold text-rose-300 mb-1">✓</p>
+                  <p className="text-xs text-white/60">Active & Ready</p>
                 </div>
-                <div className="vital-card bg-white/10 rounded-xl p-4 backdrop-blur hover-lift">
-                  <p className="text-xs text-white/70 mb-2">Health Records</p>
-                  <p className="text-3xl font-bold">15</p>
-                  <p className="text-xs text-white/50">Saved</p>
+                <div className="vital-card bg-gradient-to-br from-cyan-500/20 to-cyan-600/10 rounded-xl p-5 backdrop-blur border border-cyan-400/30 hover-lift transition-all duration-300">
+                  <div className="flex items-start justify-between mb-3">
+                    <div className="bg-cyan-500/30 p-2.5 rounded-lg">
+                      <FileText className="w-5 h-5 text-cyan-300" />
+                    </div>
+                  </div>
+                  <p className="text-xs text-white/70 font-medium mb-1">Health Records</p>
+                  <p className="text-4xl font-bold text-white mb-1">15</p>
+                  <p className="text-xs text-white/60">Saved & Secure</p>
                 </div>
               </div>
             </div>
